@@ -23,21 +23,21 @@ npm install
 ```
 4. Open the backend directory and install required Python dependencies
 ```
-cd fast_chat_backend    // ensure you are in fast_chat directory
-pip install -r requirements.txt // use pip3 if you have python3
+cd fast_chat_backend    
+pip install -r requirements.txt 
 ```
 5. Create a new SQLite database in the backend directory using 
 ```
-python manage.py makemigrations //use python3 as per your case
+python manage.py makemigrations 
 python manage.py migrate
 ```
 6. Run the Django development server using
 ```
-python manage.py runserver  //use python3 as per your case
+python manage.py runserver  
 ```
 7. Run the frontend application using
 ```
-npm run dev //ensure you are in fast_chat_frontend directory
+npm run dev
 ``` 
 ## Architecture
 The project is divided into two main parts: the frontend and the backend. The frontend is built using NextJs while the backend is built on Django. Backend sotres data on the default SQLite database.\
